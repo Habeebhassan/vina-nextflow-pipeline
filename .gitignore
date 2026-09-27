@@ -1,0 +1,21 @@
+# Nextflow runtime directories and logs
+.nextflow/
+.nextflow.log*
+work/
+
+# Generated execution reports
+report*.html*
+timeline*.html*
+trace*.txt*
+dag*.html*
+
+# Pipeline results (only code & config should be tracked)
+results/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS artifacts
+.DS_Store
+*.swp
